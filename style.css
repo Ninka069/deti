@@ -6,8 +6,18 @@ h1{
     width: fit-content;
     padding: 7px;
     margin: auto;
-    
+    font-family:'Courier New', Courier, monospace;
 }
 body{
-    background-image:url(https://i.pinimg.com/564x/16/62/01/166201587fd88690c3321f0d71650712.jpg)
+    background-image:url(https://i.pinimg.com/564x/16/62/01/166201587fd88690c3321f0d71650712.jpg);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.DetiVyberDiv{
+    width: fit-content;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    div{
+        width: fit-content;
+    }
 }
